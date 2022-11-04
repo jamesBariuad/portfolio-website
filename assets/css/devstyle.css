@@ -126,6 +126,17 @@
     /* box-shadow: 0px 0px 0px 2px #B1B1B1 inset ; */
     z-index: 1;
   }
+
+  #cv{
+    border-radius: 10px;
+    background-color: #747474;
+   
+  }
+
+  #cv:hover{
+    color:inherit;
+    background-color: inherit;
+  }
   
   ul {
     display: flex;
@@ -142,13 +153,15 @@
     list-style: none;
     color: #b1b1b1;
     justify-content: flex-end;
-    padding-left: 20px;
-    padding-right: 15px;
+    padding: 0 0.3em;
+    margin:  0 0.1em;
     border-radius: 10px;
   }
   
   li a:hover {
     box-shadow: 0 0 2px 2px #747474;
+    /* color: #0a0708;
+    background-color: #747474; */
   }
   
   .About {
@@ -183,7 +196,7 @@
     background-color: #444444;
     border-radius: 10px;
     display: flex;
-  
+    flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
   
@@ -192,6 +205,12 @@
   
     padding-left: 1%;
     padding-right: 1%;
+  }
+
+  .deetsskills a{
+    width: 100%;
+    text-align: center;
+    
   }
   
   .card2 {
@@ -283,7 +302,7 @@
   
   .gallery {
     display: flex;
-    
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
    
@@ -296,7 +315,7 @@
     display: flex;
     flex-direction: column;
     width: 15%;
-    flex-wrap: wrap;
+
     height: 70%;
    
     padding: 0.5em;
@@ -337,8 +356,14 @@
   
   .gallery img:hover {
     transform: scale(1.1);
+  
   }
   
+  .gitlogo{
+    width: 20%;
+  }
+
+
   .Contact {
     grid-area: contact;
     background-color: #444444;
@@ -347,12 +372,14 @@
     flex-direction: column;
     text-align: center;
     justify-content: space-evenly;
-    scroll-margin-top: 3em;
+    scroll-margin-top: 2em;
     color: #b1b1b1;
     font-size: 0.65em;
-  
+    
     align-items: center;
   }
+
+  
   
   .contactcontainer {
     background-color: #0a0708;
@@ -384,14 +411,7 @@
     box-shadow: 0 0 10px 1px #b1b1b1;
   }
   
-  /* .Contact div{
-      width: 50%;
-    
-  } */
-  
-  /* .Contact p{
-      width: 50%;
-  } */
+ 
   
   form {
     display: flex;
@@ -425,13 +445,16 @@
     color: #b1b1b1;
     font-size: medium;
     text-align: center;
+ 
   }
   
-  footer i {
+  footer img {
     color: #b1b1b1;
+    width: 2.5em;
+
   }
   
-  footer i:hover {
+  footer img:hover {
     transform: scale(1.1);
   }
   
