@@ -1025,6 +1025,7 @@ footer img:hover {
     width: 25%;
     height: auto;
     padding: 1em;
+   
   }
 
   .contactcontainer p{
@@ -1032,11 +1033,13 @@ footer img:hover {
   }
 
   input{
-    line-height: 0.5em;
+    line-height: 0.8em;
+    font-size: 0.5em;
+    
   }
 
   footer img{
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
   }
 
