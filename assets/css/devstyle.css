@@ -262,7 +262,7 @@ i {
 .Projects {
   grid-area: Projects;
   background-color: #0a0708;
-  height: 100vh;
+  height: auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -286,10 +286,9 @@ i {
 .gallery {
   display: flex;
   flex-wrap: wrap;
+
   justify-content: space-evenly;
   align-items: center;
-
-  height: 80%;
 
   width: 100%;
 }
@@ -297,12 +296,10 @@ i {
 .gallery-item {
   display: flex;
   flex-direction: column;
-  width: 15%;
+  width: 26%;
 
-  height: 70%;
-
-  padding: 0.5em;
-  margin: 0.5em;
+  padding: 1em;
+  margin: 5em;
   background-color: #747474;
   border-radius: 5px;
   align-items: center;
@@ -330,8 +327,8 @@ i {
 }
 
 .gallery img {
-  width: 90%;
-  padding: 6%;
+  width: 100%;
+
   transition: 1s;
   border-radius: 30px;
 }
@@ -341,7 +338,7 @@ i {
 }
 
 .gitlogo {
-  width: 20%;
+  width: 10%;
 }
 
 .Contact {
@@ -535,7 +532,7 @@ footer img:hover {
     font-size: 2em;
   }
 
-  .Projects{
+  .Projects {
     scroll-margin-top: 3.5em;
   }
 
@@ -545,10 +542,16 @@ footer img:hover {
 
   .gallery-item {
     margin: 1.5em;
+    padding: 0.5em;
   }
 
   .gallery-item img {
     box-shadow: 0px 0px 0.5px 0.5px #b1b1b1;
+    width: 100%;
+  }
+
+  .gitlogo {
+    width: 15%;
   }
 
   .contactcontainer {
@@ -615,10 +618,16 @@ footer img:hover {
 
   .gallery-item {
     margin: 1.5em;
+    padding: 0.5em;
   }
 
   .gallery-item img {
     box-shadow: 0px 0px 0.5px 0.5px #b1b1b1;
+    width: 100%;
+  }
+
+  .gitlogo {
+    width: 15%;
   }
 
   .contactcontainer {
@@ -691,10 +700,16 @@ footer img:hover {
 
   .gallery-item {
     margin: 1.5em;
+    padding: 0.5em;
   }
 
   .gallery-item img {
     box-shadow: 0px 0px 0.5px 0.5px #b1b1b1;
+    width: 100%;
+  }
+
+  .gitlogo {
+    width: 15%;
   }
 
   .Contact {
@@ -734,18 +749,18 @@ footer img:hover {
     font-size: medium;
   }
 
-  .card{
+  .card {
     font-size: 2em;
     height: auto;
     width: auto;
     padding: 1em;
   }
 
-  .card div{
+  .card div {
     font-size: 0.6em;
   }
-  
-  li a{
+
+  li a {
     font-size: 1.3em;
   }
 
@@ -760,12 +775,12 @@ footer img:hover {
     width: 40%;
   }
 
-  .Projects{
+  .Projects {
     scroll-margin-top: 3.5em;
     height: auto;
   }
 
-  .gallery{
+  .gallery {
     padding: 1em;
     display: flex;
     flex-wrap: wrap;
@@ -774,13 +789,18 @@ footer img:hover {
     width: 100%;
   }
 
-  .gallery-item{
-    width: 25%;
-    height: 60% ;
+  .gallery-item {
+    width: 32%;
     height: auto;
     padding: 1.5em;
+  }
 
+  .gallery-item img{
+    width: 100%;
+  }
 
+  .gitlogo{
+    width: 15%;
   }
 
   .Projects h2 {
@@ -789,30 +809,27 @@ footer img:hover {
     font-size: 1.5em;
   }
 
-  .Projects b{
+  .Projects b {
     font-size: 1.3em;
   }
-  
-  .Contact{
+
+  .Contact {
     height: 85vh;
- 
   }
 
   .contactcontainer {
     height: auto;
     padding: 1em;
   }
-  .contactcontainer p{
+  .contactcontainer p {
     padding: 1em;
   }
 
-  footer img{
+  footer img {
     font-size: 0.8em;
   }
 
- 
-
-  input{
+  input {
     line-height: 1em;
   }
 }
@@ -822,18 +839,18 @@ footer img:hover {
     font-size: medium;
   }
 
-  .card{
+  .card {
     font-size: 2em;
     height: auto;
     width: auto;
     padding: 1em;
   }
 
-  .card div{
+  .card div {
     font-size: 0.6em;
   }
 
-  li a{
+  li a {
     font-size: 1.4em;
   }
 
@@ -841,14 +858,12 @@ footer img:hover {
     font-size: 1.5em;
   }
 
-  
-
   .card2 {
     font-size: 0.5em;
     padding: 2em;
   }
 
-  .Projects{
+  .Projects {
     scroll-margin-top: 3.5em;
   }
 
@@ -858,7 +873,7 @@ footer img:hover {
     font-size: 1.3em;
   }
 
-  .gallery-item h2{
+  .gallery-item h2 {
     font-size: 1.8em;
   }
 
@@ -866,7 +881,7 @@ footer img:hover {
     box-shadow: 0px 0px 0.5px 0.5px #b1b1b1;
   }
 
-  .Contacth2{
+  .Contacth2 {
     font-size: 2.4em;
   }
 
@@ -875,15 +890,15 @@ footer img:hover {
     padding: 1em;
   }
 
-  .contactcontainer p{
+  .contactcontainer p {
     padding: 1em;
   }
 
-  input{
+  input {
     line-height: normal;
   }
 
-  footer img{
+  footer img {
     font-size: 0.9em;
   }
 }
@@ -893,18 +908,18 @@ footer img:hover {
     font-size: large;
   }
 
-  .card{
+  .card {
     font-size: 2em;
     height: auto;
     width: auto;
     padding: 1em;
   }
 
-  .card div{
+  .card div {
     font-size: 0.6em;
   }
 
-  li a{
+  li a {
     font-size: 1.4em;
   }
 
@@ -912,14 +927,12 @@ footer img:hover {
     font-size: 1.5em;
   }
 
-  
-
   .card2 {
     font-size: 0.5em;
     padding: 2em;
   }
 
-  .Projects{
+  .Projects {
     scroll-margin-top: 3.5em;
   }
 
@@ -929,7 +942,7 @@ footer img:hover {
     font-size: 1.3em;
   }
 
-  .gallery-item h2{
+  .gallery-item h2 {
     font-size: 1.8em;
   }
 
@@ -937,7 +950,7 @@ footer img:hover {
     box-shadow: 0px 0px 0.5px 0.5px #b1b1b1;
   }
 
-  .Contacth2{
+  .Contacth2 {
     font-size: 2.4em;
   }
 
@@ -946,36 +959,36 @@ footer img:hover {
     padding: 1em;
   }
 
-  .contactcontainer p{
+  .contactcontainer p {
     padding: 1em;
   }
 
-  input{
+  input {
     line-height: normal;
   }
 
-  footer img{
+  footer img {
     font-size: 0.9em;
   }
 }
 
-@media only screen and (min-width:1441px) and (max-width:2560px) {
+@media only screen and (min-width: 1441px) and (max-width: 2560px) {
   * {
     font-size: x-large;
   }
 
-  .card{
+  .card {
     font-size: 2em;
     height: auto;
     width: auto;
     padding: 1em;
   }
 
-  .card div{
+  .card div {
     font-size: 0.6em;
   }
 
-  li a{
+  li a {
     font-size: 1.4em;
   }
 
@@ -983,28 +996,27 @@ footer img:hover {
     font-size: 2.3em;
   }
 
-  
-
   .card2 {
     font-size: 0.5em;
     padding: 2em;
   }
 
-  .Projects{
+  .Projects {
     scroll-margin-top: 2.5em;
   }
 
   .Projects h2 {
-    padding: 1em;
+    margin-top: 1em;
+    padding: 0.5em;
     height: auto;
     font-size: 1.3em;
   }
 
-  .gallery-item{
-    padding: 2em;
-    height: 75% ;
+  .gallery-item {
+    padding: 1em;
+    width: 28%;
   }
-  .gallery-item h2{
+  .gallery-item h2 {
     font-size: 1.8em;
   }
 
@@ -1012,11 +1024,11 @@ footer img:hover {
     box-shadow: 0px 0px 0.5px 0.5px #b1b1b1;
   }
 
-  .Contact{
+  .Contact {
     scroll-margin-top: 2.5em;
   }
 
-  .Contacth2{
+  .Contacth2 {
     font-size: 2.4em;
   }
 
@@ -1025,23 +1037,21 @@ footer img:hover {
     width: 25%;
     height: auto;
     padding: 1em;
-   
   }
 
-  .contactcontainer p{
+  .contactcontainer p {
     padding: 1em;
   }
 
-  input{
+  input {
     line-height: 0.8em;
     font-size: 0.5em;
-    
   }
 
-  footer img{
+  footer img {
     font-size: 0.8em;
   }
-  }
+}
 
 @media only screen and (min-width: 2561px) {
   .gallery-item {
